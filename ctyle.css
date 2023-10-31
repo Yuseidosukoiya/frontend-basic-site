@@ -29,7 +29,11 @@ body {
   font-family: var(--font-family-body);
 }
 
-h2,
+h2 {
+  margin: 0;
+  font-weight: 400;
+}
+
 p {
   margin: 0;
 }
