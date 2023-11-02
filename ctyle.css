@@ -251,6 +251,7 @@ img {
   background-color: var(--color-accent-yellow);
   box-shadow: 4px 4px var(--color-accent-red);
   transition: 0.3s;
+  cursor: pointer;
 }
 
 .courses-card-frontman-head,
@@ -318,6 +319,7 @@ img {
   background-color: var(--color-accent-red);
   box-shadow: 4px 4px var(--color-accent-yellow);
   transition: 0.3s;
+  cursor: pointer;
 }
 
 .courses-button-copy {
