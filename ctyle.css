@@ -420,3 +420,22 @@ img {
     line-height: 14.52px;
   }
 }
+
+/* footer */
+.footer {
+  display: flex;
+  background-color: var(--color-background-black);
+  justify-content: center;
+  padding: 60px 0px;
+}
+
+.footer-copyright {
+  color: var(--color-white);
+}
+
+@media (max-width: 750px) {
+  .footer-copyright {
+    font-size: 12px;
+    line-height: 14.52px;
+  }
+}
