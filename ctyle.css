@@ -419,9 +419,12 @@ img {
 .signup-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
   padding: 0px 40px;
   gap: 40px;
+}
+
+.signup-main-copy {
+  align-self: center;
 }
 
 .signup-form {
@@ -459,11 +462,11 @@ img {
   color: var(--color-form-placeholder-gray);
 }
 
-#signup-button {
+.signup-button {
   box-shadow: 4px 4px var(--color-black);
 }
 
-#signup-button:hover {
+.signup-button:hover {
   box-shadow: 12px 12px 2px var(--color-black);
 }
 
