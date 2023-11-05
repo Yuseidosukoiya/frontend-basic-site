@@ -412,8 +412,10 @@ img {
 
 /* signup */
 .signup {
+  display: flex;
   background-color: var(--color-accent-yellow);
   padding: 80px 0px;
+  justify-content: center;
 }
 
 .signup-container {
